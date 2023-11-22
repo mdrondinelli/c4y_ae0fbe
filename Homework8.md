@@ -31,7 +31,7 @@ parameter `someList`.
         if len(someList) > 0:
             result = someList[0]
             for i in range(1, len(someList)):
-                if result < someList[i]:
+                if result > someList[i]:
                     result = someList[i]
             return result
         else:
